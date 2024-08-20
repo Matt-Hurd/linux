@@ -271,6 +271,10 @@ int main(void)
 	DEVID_FIELD(cdx_device_id, class_mask);
 	DEVID_FIELD(cdx_device_id, override_only);
 
+	DEVID(qrtr_device_id);
+	DEVID_FIELD(qrtr_device_id, service);
+	DEVID_FIELD(qrtr_device_id, instance);
+
 	DEVID(vchiq_device_id);
 	DEVID_FIELD(vchiq_device_id, name);
 
